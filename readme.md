@@ -1,3 +1,7 @@
+git clone  
+npm i
+npm start
+
 1、使用 css module不用担心类名重复。可以舍弃掉 BEM 那种很长的类名，在保证基本语意化的前提下采取尽量简单的类名。
 
 2、建议类名为驼峰，因为 js 里的 dot 取值形式对驼峰友好，而对styles.btn-login 会报错。
@@ -69,12 +73,3 @@ export default CSSModules(Table, styles);
 ```
 
 5.样式的复用即组件的复用（要不要使用scoped？）
-
-参考链接
-https://www.ruanyifeng.com/blog/2016/06/css_modules.html
-
-https://github.com/camsong/blog/issues/5
-
-https://github.com/gajus/react-css-modules#webpack-css-loader
-
-https://pro.ant.design/docs/style-cn
